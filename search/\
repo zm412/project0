@@ -113,7 +113,6 @@ body, input, button {
   height: 20px;
   color: #dfele5;
   margin:auto;
-  padding-right: 13px;
 }
 .wFncld {
   margin-top:3px;
@@ -208,6 +207,11 @@ a.MV3Tnb:first-of-type {
   margin-right:15px
 }
 
+.LX3sZb {
+  display:inline-block;
+  flex-grow:1
+}
+
 .gb_g {
   display: inline-block;
   line-height: 24px;
@@ -215,34 +219,18 @@ a.MV3Tnb:first-of-type {
   color: rgba(0,0,0,0.87);
   text-decoration: none;
   font-family: arial,sans-serif;
+  float: rigth;
 }
 
 .o3j99 {
   flex-shrink:0;
-  box-sizing:border-box;
-  float: right;
-  padding-left: 32px;
+  box-sizing:border-box
 }
 
 .n1xJcf {
   height:60px
 }
 
-.hright {
-  float: right;
-  box-sizing: border-box;
-  height: 48px;
-  line-height: normal;
-  padding: 0 4px;
-  padding-left: 4px;
-  flex: 0 0 auto;
-  justify-content: flex-end;
-}
-
-.LX3sZb {
-    display: inline-block;
-    flex-grow: 1;
-}
 .LLD4me {
   min-height:150px;
   max-height:290px;
