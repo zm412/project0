@@ -24,11 +24,6 @@ body {
  padding:0
 }
 
-img {
-  width: 350px;
-  height: 350px;
-}
-
 input[type="submit"], .gbqfba {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -142,6 +137,11 @@ body, input, button {
   flex:1;
   flex-wrap:wrap
 }
+
+.om7nvf {
+  padding:20px
+}
+
 .pR49Ae {
   color:transparent;
   flex:100%;
@@ -151,14 +151,6 @@ body, input, button {
 .pR49Ae span {
   background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;
   padding:0 0 10px 0;
-}
-
-.dRYYxd {
-  display:flex;
-  flex:0 0 auto;
-  margin-top:-5px;
-  align-items:stretch;
-  flex-direction:row 
 }
 
  .LS8OJ {
@@ -229,14 +221,35 @@ a.MV3Tnb:first-of-type {
 }
 
 .hright {
+  font: 13px/27px Arial,sans-serif;
   float: right;
   box-sizing: border-box;
   height: 48px;
   line-height: normal;
-  padding: 0 4px;
-  padding-left: 4px;
+  padding: 10px 5px;
   flex: 0 0 auto;
   justify-content: flex-end;
+}
+
+
+.hleft {
+  position: relative;
+  padding: 0 20px 0 15px;
+  display: inline-block;
+  z-index: 987;
+  vertical-align: middle;
+}
+
+.img_span {
+  display: block;
+  background-image: url('index3.png');
+  background-size: 528px 68px;
+  background-position: 0 -35px;
+  height: 33px;
+  width: 92px;
+}
+
+.img_l {
 }
 
 .LX3sZb {
@@ -249,9 +262,10 @@ a.MV3Tnb:first-of-type {
   height:calc(100% - 560px)
 }
 
-.yr19Zb {
+.yr19Zb { 
   min-height:92px
 }
+
 .ikrT4e {
   max-height:160px 
 }
@@ -260,5 +274,180 @@ a.MV3Tnb:first-of-type {
   flex-grow:1
 }
 
+.Tg7LZd {
+  height:44px;
+  width:44px;
+  background:transparent;
+  border:none;
+  cursor:pointer;
+  flex:0 0 auto;
+  padding:0
+}
 
+.minidiv .Tg7LZd {
+  height:32px;
+  line-height:32px
+}
+
+.minidiv .Tg7LZd .FAuhyb {
+  height:20px;width:20px
+}
+
+.minidiv .Tg7LZd svg {
+  height:20px;width:20px
+}
+
+.Tg7LZd {
+  flex:0 0 auto;
+  padding-right:13px
+}
+
+html:not(.zAoYTe) .Tg7LZd:focus {
+  outline:none
+}
+
+.FAuhyb {
+  background:none;
+  color:#4285f4;
+  height:24px;
+  width:24px;
+  margin:auto
+}
+
+.db_jd {
+  color: red;
+  left: 0;
+  min-width: 1002px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  white-space: nowrap;
+  background: #f1f1f1; 
+}
+
+.gb_Jf {
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
+
+.right_sd {
+  margin: 10px 5px 0 0 ;
+}
+
+
+.second_fl {
+  top: 60px;
+  position: relative;
+}
+
+.third_fl {
+  position: relative;
+  top: 60px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.gy3Eif {
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    top: 60px;
+}
+
+.Mza7yc {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.otByu {
+    width: 100%;
+    clear: both;
+}
+
+.lOTAE {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+  margin-top: 30px;
+  margin-left: 42px;
+}
+
+.row_r{
+  display: flex;
+  flex-wrap: wrap;
+  height:42px;
+  min-width: 167px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 15px 0px;
+  vertical-align: baseline;
+}
+
+.first_col {
+  float: left;
+  min-width: 167px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.second_col {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 50%;
+  min-height: 41px;
+  padding-right: 16px;
+}
+
+span.BFlQMb {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.second_col > input {
+  width: 100%;
+  text-align: left;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+
+}
+
+
+.converable {
+  float: left;
+  width: 32%;
+  min-width: 160px;
+  margin: 0 0 8px 1%;
+  color: #555;
+  font-size: 11px;
+  padding-left: 5px;
+  vertical-align: middle;
+  position: relative;
+  
+}
+
+@media (max-width: 1150px){
+  .converable {
+    display: none;
+  }
+}
 
