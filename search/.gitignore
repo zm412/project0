@@ -5,6 +5,8 @@
 # VIM
 *.swp
 *.swo
+*.swm
+*.swn
 *package-lock.json
 
 # Runtime data
