@@ -9,14 +9,11 @@ a {
   color: black;
 }
 
-a:hover,
-
-a:active {
+a:hover, a:active {
   text-decoration:underline
 }
 
-html,
-body {
+html, body {
   min-width:400px;
   height:100%;
   margin:0;
@@ -46,11 +43,6 @@ body, input, button {
   color: #222;
 }
 
-
-/*
-full block of searching field
-*/
-
 .RNNXgb {
   background:#fff;
   border:1px solid #dfe1e5;
@@ -63,20 +55,12 @@ full block of searching field
   width:auto;
 }
 
-/*
-box of search field with left icon and input=text
-*/
-
 .SDkEP {
   display:flex;
   flex:1;
   padding:5px 8px 0 16px;
   padding-left:14px;
 }
-
-/*
- left icon's block
- */
 
 .hsuHs {
   width: 20px;
@@ -87,21 +71,12 @@ box of search field with left icon and input=text
   padding-right: 13px;
 }
 
-
-/*
- span around svg. Lets change style of icon
- */
-
 .wFncld {
   margin-top:3px;
   color:#9aa0a6;
   height:20px;
   width:20px
 }
-
-/*
- text input field
- */
 
 .gLFyf {
   background-color:transparent;
@@ -119,28 +94,18 @@ box of search field with left icon and input=text
   font-size:16px
 }
 
-/*
- div container for input text
- */
-
 .a4bIc {
   display:flex;
   flex:1;
   flex-wrap:wrap
 }
 
-
-/*
- div container for input. Keeps it inside of block
-
- */ 
 .pR49Ae {
   color:transparent;
   flex:100%;
   white-space:pre;
   height:34px
 }
-
 
 .o3j99 {
   flex-shrink:0;
@@ -157,7 +122,6 @@ box of search field with left icon and input=text
   padding:6px
 }
 
-
 .third_o3j99 {
   display: flex;
   max-height:160px;
@@ -166,11 +130,6 @@ box of search field with left icon and input=text
   margin:0 auto;
   width:70%;
 }
-
-
-/*
-position of button's block on main page
-*/
 
 .FPdoLc {
   display: flex;
@@ -181,32 +140,6 @@ position of button's block on main page
   z-index:0;
   flex: 0 0 auto;
 }
-/*
- full line (search field)
- */
-
-.A8SBwf {
-  position:relative;
-  margin:0 auto;
-  padding-top:6px;
-  width:auto;
-  max-width:584px;
-}
-
-.LS8OJ {
-  display:flex;
-  flex-direction:column;
-  align-items:center
-}
-
-.k1zIA {
-  height:100%;
-  margin-top:auto
-}      
-
-.rSk4se {
-  max-height:92px
-}
 
 .lnXdpd {
   max-height:100%;
@@ -216,36 +149,10 @@ position of button's block on main page
   width:auto
 }
 
-
 .L3eUgb { 
   display:flex;
   flex-direction:column;
   height:100%;
-}
-
-
-a.MV3Tnb {
-  display:inline-block;
-  padding:5px;
-  margin:0 5px;
-  color:#222
-}
-
-a.MV3Tnb:first-of-type {
-  margin-right:15px
-}
-
-.gb_g {
-  display: inline-block;
-  line-height: 24px;
-  vertical-align: middle;
-  color: rgba(0,0,0,0.87);
-  text-decoration: none;
-  font-family: arial,sans-serif;
-}
-
-
-.n1xJcf {
 }
 
 .hright {
@@ -259,7 +166,6 @@ a.MV3Tnb:first-of-type {
   justify-content: flex-end;
   margin: 10px 5px 0 0 ;
 }
-
 
 .hleft {
   position: relative;
@@ -278,16 +184,6 @@ a.MV3Tnb:first-of-type {
   width: 92px;
 }
 
-
-.LX3sZb {
-  display: inline-block;
-  flex-grow: 1;
-}
-
-.qarstb {
-  flex-grow:1
-}
-
 .Tg7LZd {
   height:44px;
   width:44px;
@@ -298,26 +194,9 @@ a.MV3Tnb:first-of-type {
   padding:0
 }
 
-.minidiv .Tg7LZd {
-  height:32px;
-  line-height:32px
-}
-
-.minidiv .Tg7LZd .FAuhyb {
-  height:20px;width:20px
-}
-
-.minidiv .Tg7LZd svg {
-  height:20px;width:20px
-}
-
 .Tg7LZd {
   flex:0 0 auto;
   padding-right:13px
-}
-
-html:not(.zAoYTe) .Tg7LZd:focus {
-  outline:none
 }
 
 .FAuhyb {
@@ -339,13 +218,6 @@ html:not(.zAoYTe) .Tg7LZd:focus {
   white-space: nowrap;
   background: #f1f1f1; 
 }
-
-.gb_Jf {
-  position: relative;
-  height: 60px;
-  width: 100%;
-}
-
 
 .second_fl {
   top: 60px;
@@ -369,17 +241,6 @@ html:not(.zAoYTe) .Tg7LZd:focus {
   top: 60px;
 }
 
-.Mza7yc {
-  max-width: 1140px;
-  min-width: 200px;
-  width: 96%;
-  margin: 40px 2% 0 45px;
-}
-
-.otByu {
-  width: 100%;
-  clear: both;
-}
 
 .lOTAE {
   height: 30px;
@@ -495,11 +356,6 @@ span.BFlQMb {
   border: 1px solid #2f5bb7;
   border-image: initial;
 }
-
-.send_button:ation {
-
-}
-
 
 .jYcx0e {
   float: left;
